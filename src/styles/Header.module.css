@@ -1,0 +1,137 @@
+/* components/Header.module.css */
+.header {
+  background-color: transparent;
+  padding: 40px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.scrolled {
+  background-color: black; /* Red color when scrolled */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  z-index: 1001;
+  max-width: 111px;
+}
+
+.nav {
+  display: flex;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+
+.navLink {
+  color: #ffff;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.scrolledLink {
+  color: #fff;
+}
+
+.navLink:hover {
+  color: #fa198c;
+}
+
+.scrolled .navLink:hover {
+  color: #fa198c;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1001;
+  position: relative;
+}
+
+.hamburgerLines {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.scrolled .hamburgerLines {
+  background: #fff;
+}
+
+/* Hamburger Animation */
+.hamburger.active .hamburgerLines:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.active .hamburgerLines:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .hamburgerLines:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    padding: 5rem 1rem 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .scrolled .nav {
+    background: #000;
+  }
+
+  .navOpen {
+    display: block;
+  }
+
+  .navList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navItem {
+    margin: 1rem 0;
+    margin-left: 0;
+  }
+
+  .navLink {
+    font-size: 1.2rem;
+  }
+}

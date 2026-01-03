@@ -1,0 +1,136 @@
+/* [project]/sites/Dgroup/src/styles/TabsSection.module.css [client] (css) */
+.TabsSection-module____1s4q__tabHeader {
+  border-bottom: 2px solid #eee;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+
+.TabsSection-module____1s4q__tabButton {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.TabsSection-module____1s4q__tabButton:hover {
+  color: #fa198c;
+}
+
+.TabsSection-module____1s4q__tabButton.TabsSection-module____1s4q__active {
+  color: #fa198c;
+  border-bottom: 2px solid #fa198c;
+  margin-bottom: -2px;
+}
+
+.TabsSection-module____1s4q__tabContent {
+  margin-top: 30px;
+}
+
+.TabsSection-module____1s4q__inner-wrap h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.TabsSection-module____1s4q__inner-wrap p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.TabsSection-module____1s4q__bg-wrap {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.TabsSection-module____1s4q__mobileDropdown {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .TabsSection-module____1s4q__tabHeader {
+    display: none;
+  }
+
+  .TabsSection-module____1s4q__mobileDropdown {
+    display: block;
+    position: relative;
+  }
+
+  .TabsSection-module____1s4q__dropdownToggle {
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+  }
+
+  .TabsSection-module____1s4q__arrow {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    width: 12px;
+    height: 12px;
+    transition: transform .2s linear;
+    transform: rotate(45deg);
+  }
+
+  .TabsSection-module____1s4q__mobileDropdown .TabsSection-module____1s4q__dropdownToggle:has( + .TabsSection-module____1s4q__dropdownMenu) .TabsSection-module____1s4q__arrow {
+    transform: rotate(-135deg);
+  }
+
+  .TabsSection-module____1s4q__dropdownMenu {
+    z-index: 1000;
+    background: #fff;
+    border-top: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 25px #5b5b5b26;
+  }
+
+  .TabsSection-module____1s4q__dropdownItem {
+    cursor: pointer;
+    text-align: left;
+    color: #000;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .TabsSection-module____1s4q__dropdownItem:hover {
+    background: #f5f5f5;
+  }
+
+  .TabsSection-module____1s4q__dropdownItem.TabsSection-module____1s4q__active {
+    color: #fa198c;
+    background: #fafafa;
+  }
+
+  .TabsSection-module____1s4q__tabContent {
+    padding: 1rem;
+  }
+
+  .TabsSection-module____1s4q__inner-wrap h1 {
+    font-size: 1.5rem;
+  }
+
+  .TabsSection-module____1s4q__inner-wrap p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=sites_Dgroup_src_styles_TabsSection_module_css_65f1660e._.single.css.map*/

@@ -1,0 +1,128 @@
+/* [project]/sites/Dgroup/src/styles/Header.module.css [client] (css) */
+.Header-module__9ZqozG__header {
+  z-index: 1000;
+  background-color: #0000;
+  width: 100%;
+  padding: 40px 0;
+  transition: background-color .3s;
+  position: fixed;
+  top: 0;
+}
+
+.Header-module__9ZqozG__scrolled {
+  background-color: #000;
+}
+
+.Header-module__9ZqozG__logo {
+  color: #000;
+  z-index: 1001;
+  max-width: 111px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Header-module__9ZqozG__nav {
+  display: flex;
+}
+
+.Header-module__9ZqozG__navList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Header-module__9ZqozG__navItem {
+  margin-bottom: 0;
+  margin-left: 2rem;
+}
+
+.Header-module__9ZqozG__navLink {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.Header-module__9ZqozG__scrolledLink {
+  color: #fff;
+}
+
+.Header-module__9ZqozG__navLink:hover, .Header-module__9ZqozG__scrolled .Header-module__9ZqozG__navLink:hover {
+  color: #fa198c;
+}
+
+.Header-module__9ZqozG__hamburger {
+  cursor: pointer;
+  z-index: 1001;
+  background: none;
+  border: none;
+  padding: .5rem;
+  display: none;
+  position: relative;
+}
+
+.Header-module__9ZqozG__hamburgerLines {
+  background: #fff;
+  width: 25px;
+  height: 2px;
+  margin: 5px 0;
+  transition: all .3s;
+  display: block;
+}
+
+.Header-module__9ZqozG__scrolled .Header-module__9ZqozG__hamburgerLines {
+  background: #fff;
+}
+
+.Header-module__9ZqozG__hamburger.Header-module__9ZqozG__active .Header-module__9ZqozG__hamburgerLines:first-child {
+  transform: translateY(7px)rotate(45deg);
+}
+
+.Header-module__9ZqozG__hamburger.Header-module__9ZqozG__active .Header-module__9ZqozG__hamburgerLines:nth-child(2) {
+  opacity: 0;
+}
+
+.Header-module__9ZqozG__hamburger.Header-module__9ZqozG__active .Header-module__9ZqozG__hamburgerLines:nth-child(3) {
+  transform: translateY(-7px)rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .Header-module__9ZqozG__hamburger {
+    display: block;
+  }
+
+  .Header-module__9ZqozG__nav {
+    background: #000;
+    padding: 5rem 1rem 1rem;
+    transition: all .3s;
+    display: none;
+    position: fixed;
+    inset: 0;
+  }
+
+  .Header-module__9ZqozG__scrolled .Header-module__9ZqozG__nav {
+    background: #000;
+  }
+
+  .Header-module__9ZqozG__navOpen {
+    display: block;
+  }
+
+  .Header-module__9ZqozG__navList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Header-module__9ZqozG__navItem {
+    margin: 1rem 0;
+  }
+
+  .Header-module__9ZqozG__navLink {
+    font-size: 1.2rem;
+  }
+}
+
+/*# sourceMappingURL=sites_Dgroup_src_styles_Header_module_css_65f1660e._.single.css.map*/

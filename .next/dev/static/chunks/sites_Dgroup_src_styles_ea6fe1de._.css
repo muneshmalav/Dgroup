@@ -1,0 +1,303 @@
+/* [project]/sites/Dgroup/src/styles/ColThreeCards.module.css [client] (css) */
+.ColThreeCards-module__qCSEna__blackgrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 1;
+  background: url("/images/Grid_Pattern_Black.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+/* [project]/sites/Dgroup/src/styles/HeroBanner.module.css [client] (css) */
+.HeroBanner-module__-dglqW__whitegrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background: url("/images/Grid_Pattern_White.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.HeroBanner-module__-dglqW__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.HeroBanner-module__-dglqW__HeroBanner {
+  padding: 142px 0 100px;
+}
+
+/* [project]/sites/Dgroup/src/styles/ImageWithContent.module.css [client] (css) */
+.ImageWithContent-module__V9pV3W__itemWrap:after {
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  z-index: 4;
+  background-color: #000;
+  width: 100%;
+  height: 0;
+  transition: all .5s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ImageWithContent-module__V9pV3W__itemWrap:hover:after {
+  opacity: .5;
+  pointer-events: none;
+  height: 100%;
+}
+
+/* [project]/sites/Dgroup/src/styles/Cta.module.css [client] (css) */
+.Cta-module__u3NgGW__whitegrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background: url("/images/Grid_Pattern_White.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.Cta-module__u3NgGW__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* [project]/sites/Dgroup/src/styles/Footer.module.css [client] (css) */
+.Footer-module__KAuZwG__titleWrap p {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.Footer-module__KAuZwG__itemSmall a svg path {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__KAuZwG__itemSmall a:hover svg path {
+  fill: #fa198c;
+}
+
+.Footer-module__KAuZwG__itemMedium ul li a {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__KAuZwG__itemMedium ul li a:hover {
+  color: #fa198c;
+}
+
+/* [project]/sites/Dgroup/src/styles/CaseStudies.module.css [client] (css) */
+.CaseStudies-module__4x7rZW__outerWrap {
+  background-color: #fff;
+  border-top: 1px solid #000;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__hoverImg:after {
+  content: "";
+  opacity: .5;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.CaseStudies-module__4x7rZW__touch-device .CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__hoverImg {
+  clip-path: circle(100%);
+}
+
+.CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__hoverImg {
+  clip-path: circle(0);
+  transition: all .4s ease-in-out;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap:hover .CaseStudies-module__4x7rZW__hoverImg {
+  clip-path: circle(100%);
+  transition: all .6s ease-in-out;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__defaultLogo {
+  opacity: 1;
+  transition-duration: .7s;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__hoverLogo {
+  opacity: 0;
+  transition-duration: .7s;
+  display: none;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap:hover .CaseStudies-module__4x7rZW__defaultLogo {
+  opacity: 0;
+  display: none;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap:hover .CaseStudies-module__4x7rZW__hoverLogo {
+  opacity: 1;
+  display: block;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__introWrap h4, .CaseStudies-module__4x7rZW__outerWrap .CaseStudies-module__4x7rZW__introWrap p {
+  transition-duration: .7s;
+}
+
+.CaseStudies-module__4x7rZW__outerWrap:hover .CaseStudies-module__4x7rZW__introWrap h4, .CaseStudies-module__4x7rZW__outerWrap:hover .CaseStudies-module__4x7rZW__introWrap p {
+  color: #fff;
+}
+
+/* [project]/sites/Dgroup/src/styles/TabsSection.module.css [client] (css) */
+.TabsSection-module____1s4q__tabHeader {
+  border-bottom: 2px solid #eee;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+
+.TabsSection-module____1s4q__tabButton {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.TabsSection-module____1s4q__tabButton:hover {
+  color: #fa198c;
+}
+
+.TabsSection-module____1s4q__tabButton.TabsSection-module____1s4q__active {
+  color: #fa198c;
+  border-bottom: 2px solid #fa198c;
+  margin-bottom: -2px;
+}
+
+.TabsSection-module____1s4q__tabContent {
+  margin-top: 30px;
+}
+
+.TabsSection-module____1s4q__inner-wrap h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.TabsSection-module____1s4q__inner-wrap p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.TabsSection-module____1s4q__bg-wrap {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.TabsSection-module____1s4q__mobileDropdown {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .TabsSection-module____1s4q__tabHeader {
+    display: none;
+  }
+
+  .TabsSection-module____1s4q__mobileDropdown {
+    display: block;
+    position: relative;
+  }
+
+  .TabsSection-module____1s4q__dropdownToggle {
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+  }
+
+  .TabsSection-module____1s4q__arrow {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    width: 12px;
+    height: 12px;
+    transition: transform .2s linear;
+    transform: rotate(45deg);
+  }
+
+  .TabsSection-module____1s4q__mobileDropdown .TabsSection-module____1s4q__dropdownToggle:has( + .TabsSection-module____1s4q__dropdownMenu) .TabsSection-module____1s4q__arrow {
+    transform: rotate(-135deg);
+  }
+
+  .TabsSection-module____1s4q__dropdownMenu {
+    z-index: 1000;
+    background: #fff;
+    border-top: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 25px #5b5b5b26;
+  }
+
+  .TabsSection-module____1s4q__dropdownItem {
+    cursor: pointer;
+    text-align: left;
+    color: #000;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .TabsSection-module____1s4q__dropdownItem:hover {
+    background: #f5f5f5;
+  }
+
+  .TabsSection-module____1s4q__dropdownItem.TabsSection-module____1s4q__active {
+    color: #fa198c;
+    background: #fafafa;
+  }
+
+  .TabsSection-module____1s4q__tabContent {
+    padding: 1rem;
+  }
+
+  .TabsSection-module____1s4q__inner-wrap h1 {
+    font-size: 1.5rem;
+  }
+
+  .TabsSection-module____1s4q__inner-wrap p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=sites_Dgroup_src_styles_ea6fe1de._.css.map*/

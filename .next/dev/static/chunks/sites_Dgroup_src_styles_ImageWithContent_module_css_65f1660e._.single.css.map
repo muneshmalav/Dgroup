@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/sites/Dgroup/src/styles/ImageWithContent.module.css"],"sourcesContent":[".itemWrap::after {\n  position: absolute;\n  width: 100%;\n  height: 0;\n  content: \"\";\n  bottom: 0;\n  left: 0;\n  background-color: #000;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.5s ease-in-out;\n  z-index: 4;\n}\n\n.itemWrap:hover::after {\n  height: 100%;\n  opacity: 0.5;\n  pointer-events: none;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;AAcA"}}]
+}

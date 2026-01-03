@@ -1,0 +1,451 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.no-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  font-size: 0;
+}
+
+.pink-btn {
+  border: 2px solid #fa198c;
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  font-weight: 700;
+  letter-spacing: 0.008em;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  z-index: 3;
+}
+
+.pink-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fa198c;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.pink-btn:hover {
+  color: #fa198c;
+}
+
+.pink-btn:hover::after {
+  width: 0;
+  right: 0;
+  left: auto;
+}
+
+.text-pink {
+  color: #fa198c;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1450px;
+  overflow: hidden;
+  position: relative;
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  padding: 100px 0;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.whitegrid::after {
+  position: absolute;
+  content: "";
+  background: url("/images/Grid_Pattern_White.svg") round fixed;
+  background-size: 6rem;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  opacity: 0.5;
+  z-index: 2;
+  background-attachment: fixed;
+}
+
+.dark__overlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+li {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.padding-large {
+  padding: 175px 0;
+}
+
+.padding-large-top {
+  padding-top: 175px;
+}
+
+.padding-large-bottom {
+  padding-bottom: 175px;
+}
+
+.padding-top-120 {
+  padding-top: 120px;
+}
+
+.padding-bottom-120 {
+  padding-bottom: 120px;
+}
+
+.padding-100 {
+  padding: 100px 0;
+}
+
+.padding-120 {
+  padding: 120px 0;
+}
+
+.padding-top-60 {
+  padding-top: 60px;
+}
+
+.padding-bottom-60 {
+  padding-bottom: 60px;
+}
+
+.padding-60 {
+  padding: 60px 0;
+}
+
+.padding-medium {
+  padding: 80px 0;
+}
+
+.padding-medium-top {
+  padding-top: 80px;
+}
+
+.padding-medium-bottom {
+  padding-bottom: 80px;
+}
+
+.padding-small {
+  padding: 40px 0;
+}
+
+.padding-small-top {
+  padding-top: 40px;
+}
+
+.padding-small-bottom {
+  padding-bottom: 40px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-padding-top {
+  padding-top: 0;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+h1,
+.h1 {
+  font-size: 120px;
+  font-weight: 900;
+  line-height: auto;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-family: Lobster Two, cursive;
+}
+
+h2,
+.h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+h3,
+.h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  letter-spacing: 0.2px;
+
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.4;
+  font-style: normal;
+  letter-spacing: 0.1px;
+}
+
+h5,
+.h5 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+h6 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-style: normal;
+  letter-spacing: 0.2px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
+  font-display: swap;
+}
+
+@media (min-width: 2500px) {
+
+  h1,
+  .h1 {
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 54px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 35px;
+  }
+
+  h6 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  /* section {
+		padding: 100px 0;
+	} */
+
+  .container {
+    max-width: 1650px;
+  }
+
+  .padding-60 {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+
+  h1,
+  .h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  h1,
+  .h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 61px 0;
+  }
+
+  .padding-60 {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 767px) {
+
+  h1,
+  .h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  .padding-60 {
+    padding: 40px 0;
+  }
+}
+
+@font-face {
+  font-family: "ProximaSera";
+  src: url("/fonts/ProximaSera-Regular.woff2") format("woff2"),
+    url("/fonts/ProximaSera-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

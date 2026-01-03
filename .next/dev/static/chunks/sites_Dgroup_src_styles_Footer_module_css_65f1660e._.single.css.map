@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/sites/Dgroup/src/styles/Footer.module.css"],"sourcesContent":[".titleWrap p {\n  color: white;\n  padding-top: 20px;\n}\n.itemSmall a svg path {\n  transition: all 0.3s ease-in-out;\n}\n.itemSmall a:hover svg path {\n  fill: #fa198c;\n}\n.itemMedium ul li a {\n  transition: all 0.3s ease-in-out;\n}\n.itemMedium ul li a:hover {\n  color: #fa198c;\n}\n"],"names":[],"mappings":"AAAA;;;;;AAIA;;;;AAGA;;;;AAGA;;;;AAGA"}}]
+}

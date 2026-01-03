@@ -1,0 +1,16 @@
+.titleWrap p {
+  color: white;
+  padding-top: 20px;
+}
+.itemSmall a svg path {
+  transition: all 0.3s ease-in-out;
+}
+.itemSmall a:hover svg path {
+  fill: #fa198c;
+}
+.itemMedium ul li a {
+  transition: all 0.3s ease-in-out;
+}
+.itemMedium ul li a:hover {
+  color: #fa198c;
+}
