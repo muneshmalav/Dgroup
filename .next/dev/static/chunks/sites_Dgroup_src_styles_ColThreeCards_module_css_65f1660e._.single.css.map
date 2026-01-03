@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/sites/Dgroup/src/styles/ColThreeCards.module.css"],"sourcesContent":[".blackgrid::after {\n  position: absolute;\n  content: \"\";\n  background: url(\"/images/Grid_Pattern_Black.svg\") round fixed;\n  background-size: 4rem;\n  height: 100%;\n  width: 100%;\n  inset: 0;\n  opacity: 0.5;\n  z-index: 1;\n  background-attachment: fixed;\n}\n"],"names":[],"mappings":"AAAA"}}]
-}
