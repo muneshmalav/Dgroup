@@ -82,7 +82,7 @@ export default function TeamSlider() {
             </div>
 
             {/* Filter */}
-            <div className="flex flex-wrap items-center justify-center gap-6 mb-16">
+            {/* <div className="flex flex-wrap items-center justify-center gap-6 mb-16">
                 <h3 className="text-xl">Filter by:</h3>
                 <div className="relative">
                     <button
@@ -116,7 +116,7 @@ export default function TeamSlider() {
                         </>
                     )}
                 </div>
-            </div>
+            </div> */}
 
             {/* Infinite Continuous Slider */}
             <div className="overflow-hidden">
