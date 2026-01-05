@@ -1,0 +1,22 @@
+.countWrap {
+  color: #fff;
+}
+
+.count {
+  font-size: 48px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .count {
+    font-size: 35px;
+  }
+}

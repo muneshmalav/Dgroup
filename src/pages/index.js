@@ -1,6 +1,6 @@
 import HeroBanner from "@/components/HeroBanner";
 import Cta from "@/components/Cta";
-
+import Counter from "@/components/Counter";
 
 export default function Home() {
   const heroBannerData = {
@@ -9,7 +9,6 @@ export default function Home() {
     src: "/images/work-paper.jpg",
     video: false,
   };
-
   const ctaData = {
     heading: "Let’s build together",
     title: "Let’s build what’s next.",
@@ -23,6 +22,7 @@ export default function Home() {
         overlay={true}
         heroBannerData={heroBannerData}
       />
+      <Counter />
       <Cta ctaData={ctaData} />
     </div>
   );
