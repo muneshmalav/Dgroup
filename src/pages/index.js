@@ -1,5 +1,7 @@
 import HeroBanner from "@/components/HeroBanner";
+
 import Cta from "@/components/Cta";
+import ColThreeCard from "@/components/ColThreeCard";
 import Counter from "@/components/Counter";
 
 export default function Home() {
@@ -23,6 +25,7 @@ export default function Home() {
         heroBannerData={heroBannerData}
       />
       <Counter />
+      <ColThreeCard />
       <Cta ctaData={ctaData} />
     </div>
   );

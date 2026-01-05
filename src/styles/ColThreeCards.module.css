@@ -1,0 +1,13 @@
+.blackgrid::after {
+  position: absolute;
+  content: "";
+  background: url("/images/Grid_Pattern_Black.svg") round fixed;
+  background-size: 4rem;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  opacity: 0.5;
+  z-index: 1;
+  background-attachment: fixed;
+}
+
