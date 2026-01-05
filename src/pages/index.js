@@ -1,6 +1,6 @@
 import HeroBanner from "@/components/HeroBanner";
 import Cta from "@/components/Cta";
-import Footer from "@/components/Footer";
+
 
 export default function Home() {
   const heroBannerData = {
@@ -24,7 +24,6 @@ export default function Home() {
         heroBannerData={heroBannerData}
       />
       <Cta ctaData={ctaData} />
-      <Footer />
     </div>
   );
 }
