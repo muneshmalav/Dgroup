@@ -177,8 +177,8 @@ export default function Footer() {
                   <Image
                     width={500}
                     height={500}
-                    src="/images/backeyes.jpg"
-                    alt="Tables and a sofa"
+                    src="/images/conversatison.jpg"
+                    alt="Conversatison"
                   />
                 </div>
               </div>
@@ -216,7 +216,7 @@ export default function Footer() {
             <div className="logoWrap flex flex-wrap max-[115px] w-[75px] h-[75px] overflow-hidden">
               <a href="" data-cursor-expand="">
                
-                <img className="object-contain" src="/images/ajay-new-logo.png" alt="Tables and a sofa" />
+                <img className="object-contain" src="/images/compny-logo.png" alt="Tables and a sofa" />
               </a>
             </div>
           </div>
