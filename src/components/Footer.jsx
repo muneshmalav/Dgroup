@@ -13,7 +13,7 @@ export default function Footer() {
                 <Image
                   width={100}
                   height={100}
-                  src="/images/compny-logo.png"
+                  src="/images/compny-logo-new.png"
                   alt="D Group logo"
                   style={{ objectFit: "contain" }}
                 />
